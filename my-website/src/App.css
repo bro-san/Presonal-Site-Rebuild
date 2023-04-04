@@ -1,13 +1,23 @@
 html { 
-  background: url(../Images/main.jpeg) no-repeat center center fixed; 
+  /* background: url(../Images/main.jpeg) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover; */
+  background-image: url(../Images/main.jpeg);
   background-size: cover;
+  width: 160px;
+  height: 160px;
+  overflow: scroll;
 }
 
-.App {
+.Header {
   text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;  
+  color: crimson;
+  background-color:rgba(252, 252, 252, 0.821);
 }
 
 /* .App-logo {
